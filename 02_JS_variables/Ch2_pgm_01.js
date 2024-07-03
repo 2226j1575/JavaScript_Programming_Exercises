@@ -1,16 +1,24 @@
-// Declaring a variable
+// Step 1: Declaring a variable without a semicolon
+var score
 
+/* JS Bin Output:
+ * SyntaxError: Unexpected end of input
+ * This error occurs because JavaScript expects a semicolon to terminate the statement.
+ */
+
+// Step 2: Adding the semicolon back
 var score;
 
-/* Further Adventures
- *
- * 1) Delete the semicolon at after the word score.
- *    JS Bin should complain and show an error message.
- *    Take a look at the message.
- *
- * 2) Add the semicolon back after the word score.
- *    The semicolon shows the end of the statement.
- *
- * 3) Declare two more variables.
- *
+/* Now the statement is properly terminated with a semicolon.
+ * No error should be shown in the editor.
+ */
+
+// Step 3: Declare two more variables
+var player;
+var highScore;
+
+/* Now we have three variables declared:
+ * - score
+ * - player
+ * - highScore
  */
